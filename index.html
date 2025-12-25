@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Découvrez et testez vos connaissances avec nos quiz interactifs sur les animés, pays, cultures, cinéma et dramas coréens. Amusez-vous tout en apprenant !">
+    <meta name="keywords" content="quiz, animés, pays, cultures, cinéma, drama coréen, culture générale, divertissement éducatif">
+    <title>Quiz Culture - Découvrez le Monde à Travers les Quiz</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="floating-shapes">
+        <div class="shape"></div>
+        <div class="shape"></div>
+        <div class="shape"></div>
+    </div>
+    <header>
+        <h1>🌟 Quiz Culture 🌟</h1>
+        <p>Découvrez, apprenez et amusez-vous avec nos quiz interactifs !</p>
+        <button id="theme-toggle" class="theme-toggle" aria-label="Basculer le mode sombre">
+            <i class="fas fa-moon"></i>
+        </button>
+    </header>
+
+    <main>
+        <div class="hero">
+            <h2>Choisissez Votre Aventure Culturelle</h2>
+            <p>Plongez dans des quiz passionnants sur des thèmes variés. Chaque question vous rapprochera d'une meilleure compréhension du monde qui nous entoure. Que vous soyez fan d'animés, curieux des cultures étrangères ou cinéphile averti, il y en a pour tous les goûts !</p>
+        </div>
+        <div class="categories">
+            <div class="category" onclick="window.location.href='anime-quiz.html'" tabindex="0" role="button" aria-label="Quiz sur les animés - 50 questions">
+                <i class="fas fa-tv"></i>
+                <h3>Animés</h3>
+                <p>Questions sur les animés populaires comme Naruto, One Piece, Attack on Titan et bien d'autres. Parfait pour les fans de manga et d'animation japonaise.</p>
+                <span class="question-count">50 questions</span>
+            </div>
+            <div class="category" onclick="window.location.href='culture-quiz.html'" tabindex="0" role="button" aria-label="Quiz sur les cultures - 100 questions">
+                <i class="fas fa-globe-americas"></i>
+                <h3>Cultures</h3>
+                <p>Explorez les traditions, coutumes et histoires fascinantes des cultures du monde entier. De l'Asie à l'Afrique, en passant par l'Europe et l'Amérique.</p>
+                <span class="question-count">50 questions</span>
+            </div>
+            <div class="category" onclick="window.location.href='cinema-quiz.html'" tabindex="0" role="button" aria-label="Quiz sur le cinéma - 50 questions">
+                <i class="fas fa-film"></i>
+                <h3>Cinéma</h3>
+                <p>Testez vos connaissances sur les films cultes, les réalisateurs légendaires et les stars du grand écran. Du classique au moderne.</p>
+                <span class="question-count">50 questions</span>
+            </div>
+            <div class="category" onclick="window.location.href='drama-quiz.html'" tabindex="0" role="button" aria-label="Quiz sur les dramas coréens - 50 questions">
+                <i class="fas fa-heart"></i>
+                <h3>Drama Coréen</h3>
+                <p>Plongez dans l'univers des K-dramas avec des questions sur les séries les plus populaires, les acteurs et les intrigues captivantes.</p>
+                <span class="question-count">50 questions</span>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Quiz Culture. Créé avec passion pour l'éducation et le divertissement. Tous droits réservés.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
